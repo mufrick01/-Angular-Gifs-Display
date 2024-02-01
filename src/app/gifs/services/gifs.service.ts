@@ -7,7 +7,7 @@ export class GifsService {
 
   // api.giphy.com/v1/gifs/search?api_key=5b3KzvGhQ5Fm9TNoQlO2ARRgNaQZRkEN&q={TERMIN_DE_BUSQUEDA}&limit=5
   private GIPHY_API_KEY: string = 'HwhLIiPkeGRyRxpOTdegnGv1Q9sULYAb'
-  private serviceURL: string = 'http://api.giphy.com/v1/gifs'
+  private serviceURL: string = 'https://api.giphy.com/v1/gifs'
 
 
 
