@@ -1,13 +1,12 @@
-<div class="row mt-5">
+<!-- <div class="row mt-5">
   <gifs-card
     *ngFor="let gif of gifs"
     class="col-md-3 col-sm-6"
     [gif]="gif"
     />
+</div> -->
+
+
+<div class="card-container">
+  <gifs-card *ngFor="let gif of gifs" class="gif-card" [gif]="gif" />
 </div>
-
-
-
-
-
-

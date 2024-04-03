@@ -1,3 +1,32 @@
-#contenedor{
-  width: 100%;
+
+
+.layout-main{
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr ;
+  box-sizing: border-box;
+  justify-content: center;
+
 }
+.sidebar{
+  display: none;
+}
+
+
+#contenedor{
+  display: flex;
+}
+
+
+@media screen and (min-width:650px) {
+
+  .layout-main{
+    grid-template-columns: 200px 1fr;
+  }
+
+  .sidebar{
+    display: block;
+  }
+
+}
+

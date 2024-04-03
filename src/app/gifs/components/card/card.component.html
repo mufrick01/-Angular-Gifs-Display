@@ -1,8 +1,23 @@
-<div class="card mb-2 text-center bg-dark">
+<!-- <div class="card mb-2 text-center bg-dark">
     <shared-lazy-image class="" [url]="gif.images.downsized_medium.url"/>
   <div class="card-body text-white">
     <p class="card-text">
       {{gif.title || 'no title' | titlecase }}
     </p>
   </div>
+</div> -->
+
+
+<div class="gif-card" style="background: url({{gif.images.downsized_medium.url}}); background-size: cover; background-position: center;">
 </div>
+
+<!-- <img class="gif-card" [src]="gif.images.downsized_medium.url" alt=""> -->
+
+<style>
+.gif-card{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+</style>
